@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4dd3044-a2bf-4b72-8696-30a087790b6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aluraJavaConversorMonedas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/models/Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/models/ConversorAPP.java" afterDir="false" />
+    <list default="true" id="e4dd3044-a2bf-4b72-8696-30a087790b6b" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/models/ConversionAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/models/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/models/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/models/ConversorAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/models/ConversorAPP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +20,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tonypeanut&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tonypeanut/aluraJavaConversorMonedas&quot;,
+    &quot;accountId&quot;: &quot;1801d94c-c924-4b09-adfc-9a7bec0a5d8f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2fvfke0fY0Keo6EAcuhqlij4nRT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,12 +61,32 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/TONY/gson-2.10.1.jar",
+    "last_opened_file_path": "D:/TONY/screenMatcher",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tonypeanut.aluraJavaConversorMonedas.main.Main" />
+      <module name="aluraJavaConversorMonedas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tonypeanut.aluraJavaConversorMonedas.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,6 +96,30 @@
       <option name="presentableId" value="Default" />
       <updated>1714686618347</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1714692404352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714692404352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/tonypeanut/aluraJavaConversorMonedas/models/ConversorAPP.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
