@@ -244,7 +244,6 @@ public class ConversorAPP {
             System.out.println("Ingrese la opción que indique el código de la moneda que desea convertir:");
             String baseCode = recibirCodigoMoneda();
 
-            System.out.println("Ingrese el monto que desea convertir: ");
             double montoConvertir = recibirDouble();
 
             System.out.println("Ingrese la opción que indique el código de la moneda objetivo:");
